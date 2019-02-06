@@ -30,7 +30,7 @@ addons:
 
 install:
     - npm ls
-    - npm install svg2png
+    - npm install svg2png -g
 #    - npm install svg2png-cli
     - npm update
     - npm outdated
