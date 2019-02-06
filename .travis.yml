@@ -37,8 +37,8 @@ cache:
 
 install:
     - sudo npm update   || true
-    - sudo npm install phantomjs-prebuilt --save -g
-    - sudo npm install svg2png --save -g
+    - sudo npm install -g phantomjs-prebuilt --save
+    - sudo npm install -g svg2png --save
     - sudo npm rebuild
 
 before_script:
