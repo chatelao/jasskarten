@@ -31,10 +31,10 @@ addons:
 install:
     - npm ls
     - npm install svg2png
-    - npm install svg2png-cli
-    - npm outdated
+#    - npm install svg2png-cli
     - npm update
     - npm outdated
+    - npm audit fix
     - npm ls
 
 script:
