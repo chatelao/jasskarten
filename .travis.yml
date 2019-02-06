@@ -8,6 +8,10 @@ addons:
     packages:
       - xmlstarlet
 
+cache:
+  directories:
+    - travis_phantomjs
+
 # branches:
 #   only:
 #     - master
