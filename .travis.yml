@@ -24,10 +24,11 @@ addons:
 #     - env: EMBER_VERSION=beta
 #     - env: EMBER_VERSION=canary
 
-# before_install:
+before_install:
 #     - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
 #     - "npm config set spin false"
-#     - "npm install -g npm@^2"
+    - npm install svg2png
+    - npm install svg2png-cli
 
 install:
     - make svg
