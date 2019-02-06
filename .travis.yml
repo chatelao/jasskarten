@@ -32,7 +32,9 @@ addons:
 
 install:
     - npm update   || true
+    - npm install phantomjs-prebuilt
     - npm install svg2png
+    - npm rebuild
 
 before_script:
    - mkdir -p svg-out
