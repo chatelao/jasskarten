@@ -36,10 +36,10 @@ cache:
 #    - "npm config set spin false"
 
 install:
-    - sudo npm update   || true
-    - sudo npm install -g phantomjs-prebuilt --save
-    - sudo npm install -g svg2png --save
-    - sudo npm rebuild
+    - npm update   || true
+    - npm install -g phantomjs-prebuilt --save
+    - npm install -g svg2png --save
+    - npm rebuild
 
 before_script:
    - mkdir -p svg-out
