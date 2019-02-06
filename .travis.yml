@@ -30,7 +30,8 @@ addons:
 #     - "npm install -g npm@^2"
 
 install:
-    - make
+    - make svg
+    - make png
 
 # deploy:
 #   provider: releases
