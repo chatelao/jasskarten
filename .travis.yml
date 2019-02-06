@@ -29,11 +29,13 @@ addons:
 #    - "npm config set spin false"
 
 install:
-    - npm install -g svg2png
-    - npm install -g svg2png-cli
+    - npm ls
+    - npm install svg2png
+    - npm install svg2png-cli
     - npm outdated
     - npm update
     - npm outdated
+    - npm ls
 
 script:
     - make svg
