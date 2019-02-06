@@ -35,7 +35,7 @@ install:
     - npm update
     - npm outdated
 #    - npm audit fix
-    - npm ls
+    - npm ls || true
 
 script:
     - make svg
