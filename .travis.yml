@@ -37,9 +37,16 @@ install:
 #    - npm audit fix
     - npm ls || true
 
+before_script:
+   - mkdir -p svg-out
+   - mkdir -p png-out
+
 script:
+    - ls -ltr
     - make svg
+    - ls svg-out
     - make png
+    - ls png-out
 
 # deploy:
 #   provider: releases
