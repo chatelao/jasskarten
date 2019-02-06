@@ -30,7 +30,7 @@ before_install:
     - npm install svg2png
     - npm install svg2png-cli
 
-install:
+script:
     - make svg
     - make png
 
