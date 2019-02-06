@@ -34,7 +34,7 @@ install:
 #    - npm install svg2png-cli
     - npm update
     - npm outdated
-    - npm audit fix
+#    - npm audit fix
     - npm ls
 
 script:
