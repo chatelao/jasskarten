@@ -38,8 +38,9 @@ cache:
 install:
     - npm update    || true
     - npm update -g || true
-    - npm install phantomjs@latest
     - npm install svg2png
+    - npm install phantomjs@latest
+    - npm uninstall phantomjs-prebuild
     - npm rebuild
 
 before_script:
