@@ -9,9 +9,9 @@ addons:
     packages:
       - xmlstarlet
 
-cache:
-  directories:
-    - travis_phantomjs
+# cache:
+#   directories:
+#     - travis_phantomjs
 
 # branches:
 #   only:
