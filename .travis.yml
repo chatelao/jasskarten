@@ -38,7 +38,7 @@ cache:
 install:
     - npm update    || true
     - npm update -g || true
-#    - npm install phantomjs-prebuilt
+    - npm install phantomjs-prebuilt@2.0.0
     - npm install svg2png
     - npm rebuild
 
