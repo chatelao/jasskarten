@@ -36,7 +36,7 @@ cache:
 #    - "npm config set spin false"
 
 install:
-    - npm install username/svg2png#phantomjs-fix
+    - npm install chatelao/svg2png#phantomjs-fix
 
 before_script:
    - mkdir -p svg-out
