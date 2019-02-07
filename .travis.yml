@@ -39,8 +39,7 @@ install:
     - npm update    || true
     - npm update -g || true
     - npm install svg2png
-    - npm install phantomjs@latest
-    - npm uninstall phantomjs-prebuild
+    - npm install phantomjs25-beta
     - npm rebuild
 
 before_script:
