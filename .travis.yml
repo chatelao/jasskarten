@@ -36,9 +36,10 @@ cache:
 #    - "npm config set spin false"
 
 install:
-    - npm update   || true
-    - npm install -g phantomjs-prebuilt --save
-    - npm install -g svg2png --save
+    - npm update    || true
+    - npm update -g || true
+#    - npm install phantomjs-prebuilt
+    - npm install svg2png
     - npm rebuild
 
 before_script:
